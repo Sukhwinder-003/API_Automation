@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15214" started-at="2022-03-07T18:55:02 IST" finished-at="2022-03-07T18:55:17 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="15214" started-at="2022-03-07T18:55:02 IST" finished-at="2022-03-07T18:55:17 IST">
+      <class name="com.pet.swagger.gluecode.GetPetRequest">
+        <test-method status="PASS" signature="getPetTest()[pri:4, instance:com.pet.swagger.gluecode.GetPetRequest@49049a04]" name="getPetTest" duration-ms="11411" started-at="2022-03-07T18:55:05 IST" finished-at="2022-03-07T18:55:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPetTest -->
+        <test-method status="PASS" signature="getNotFoundPetTest()[pri:5, instance:com.pet.swagger.gluecode.GetPetRequest@49049a04]" name="getNotFoundPetTest" duration-ms="574" started-at="2022-03-07T18:55:16 IST" finished-at="2022-03-07T18:55:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNotFoundPetTest -->
+      </class> <!-- com.pet.swagger.gluecode.GetPetRequest -->
+      <class name="com.pet.swagger.gluecode.CreatePet">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pet.swagger.gluecode.CreatePet@2ed2d9cb]" name="setup" is-config="true" duration-ms="31" started-at="2022-03-07T18:55:02 IST" finished-at="2022-03-07T18:55:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createMinDataPet()[pri:1, instance:com.pet.swagger.gluecode.CreatePet@2ed2d9cb]" name="createMinDataPet" duration-ms="1902" started-at="2022-03-07T18:55:02 IST" finished-at="2022-03-07T18:55:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMinDataPet -->
+        <test-method status="PASS" signature="createFullDataPet()[pri:2, instance:com.pet.swagger.gluecode.CreatePet@2ed2d9cb]" name="createFullDataPet" duration-ms="649" started-at="2022-03-07T18:55:04 IST" finished-at="2022-03-07T18:55:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFullDataPet -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pet.swagger.gluecode.CreatePet@2ed2d9cb]" name="setup" is-config="true" duration-ms="0" started-at="2022-03-07T18:55:04 IST" finished-at="2022-03-07T18:55:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pet.swagger.gluecode.CreatePet@2ed2d9cb]" name="setup" is-config="true" duration-ms="0" started-at="2022-03-07T18:55:04 IST" finished-at="2022-03-07T18:55:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="postIncorrectJson()[pri:3, instance:com.pet.swagger.gluecode.CreatePet@2ed2d9cb]" name="postIncorrectJson" duration-ms="611" started-at="2022-03-07T18:55:04 IST" finished-at="2022-03-07T18:55:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postIncorrectJson -->
+      </class> <!-- com.pet.swagger.gluecode.CreatePet -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
